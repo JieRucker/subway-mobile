@@ -1,0 +1,39 @@
+{
+    "cardTheme": 8,
+    "cardBaseInfo": {
+        "avatarImage": { "imageUrl": "http://pic8.qiyipic.com/image/20180428/90/03/a_100006957_m_601_m13_195_260.jpg" },
+        "backGroundImage": { "imageUrl": "https://biz.cli.im/Public/images/vcardbg7.jpg" },
+        "fullName": "柯南",
+        "position": "侦探",
+        "company": "毛利侦探所",
+        "departMent": [{ "name": "部门11111", "value": "侦探部" }, { "name": "部门22222222", "value": "技术部" }],
+        "layOut": 2
+    },
+    "cardLinkInfo": {
+        "telephone": "",
+        "mobilePhone": [{ "name": "移动电话", "value": "18601467018" }, { "name": "移动电话1", "value": "" }],
+        "fax": [{ "name": "传真", "value": "11112222" }, { "name": "", "value": "" }],
+        "email": [{ "name": "电子邮箱", "value": "1178867018@qq.com" }, { "name": "电子邮箱1", "value": "2390552479@qq.com" }]
+    },
+    "cardSocialInfo": {
+        "webChat": "gp117018",
+        "messenger": [{ "name": "即时通讯1", "value": "558-58" }, { "name": "即时通讯2", "value": "95584478" }],
+        "isAllowAddFriendByScanWeChatQrcode": 1,
+        "webChatQrcodeImage": { "imageUrl": "https://biz.cli.im/Public/images/vcardbg7.jpg" },
+        "webSiteList": [{ "name": "主页网址", "value": "www.baidu.com" }, { "name": "主页网址1", "value": "www.baidu.com" }],
+        "weibo": "www.sina.com",
+        "qq": "1178867018",
+        "isAllowAddFriendByScanQQQrcode": 1,
+        "qqQrcodeImage": { "imageUrl": "https://biz.cli.im/Public/images/vcardbg7.jpg" }
+    },
+    "address": [
+        { "longitude": "30.193513", "dimension": "120.223289", "name": "地址", "address": "浙江省杭州市滨江区春波南苑7栋一单元603" },
+        { "longitude": "", "dimension": "", "name": "地址1", "address": "浙江省杭州市滨江区创伟科技园A栋803" }
+    ],
+
+    "cardIntroInfo": { "selfIntro": "真相只有一个" },
+    "cardAdditionInfo": {
+        "additionalType": 0,
+        "templateId": ""
+    }
+}

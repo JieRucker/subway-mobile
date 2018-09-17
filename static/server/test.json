@@ -1,0 +1,10 @@
+{
+  "data":[
+    {"id":"001","name":"张三","sex":1,"age":18,"phoneNum":"18601467000"},
+    {"id":"002","name":"李四","sex":1,"age":30,"phoneNum":"15852606222"},
+    {"id":"003","name":"王五","sex":2,"age":12,"phoneNum":"13083262666"},
+    {"id":"004","name":"赵六","sex":2,"age":25,"phoneNum":"17775272333"}
+  ],
+  "retMsg":"我是retMsg,我的出现意味着出错了。",
+  "success":true
+}

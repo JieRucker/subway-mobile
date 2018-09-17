@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <link rel="stylesheet" href="<%= htmlWebpackPlugin.files.css[0] %>">
+    <link rel="stylesheet" href="<%= htmlWebpackPlugin.options.iconfont %>">
+    <script type="text/javascript" src="<%= htmlWebpackPlugin.options.jquery %>"></script>
+    <title><%= htmlWebpackPlugin.options.title %></title>
+</head>
+
+<body>
+    <div id="app"></div>
+
+    <script type="text/javascript" src="https://res.wx.qq.com/open/js/jweixin-1.2.0.js"></script>
+    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=vO5iSVOFv0TtKalEvVRcwhj4Un21opYk"></script>
+    <script type="text/javascript" src="<%= htmlWebpackPlugin.options.upload %>"></script>
+    <script type="text/javascript" src="<%= htmlWebpackPlugin.files.js[0] %>"></script>
+    <script type="text/javascript" src="<%= htmlWebpackPlugin.files.js[1] %>"></script>
+    <script type="text/javascript" src="<%= htmlWebpackPlugin.files.js[2] %>"></script>
+    <script>
+      var appId = '$!appId';
+      var openId = '$!openId';
+      var router = '$!router';
+      var userId = '$!userId';
+      var subwayEnterUrl = '$!subwayEnterUrl';
+      var userType = '$!userType';
+    </script>
+</body>
+
+</html>

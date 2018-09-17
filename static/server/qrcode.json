@@ -1,0 +1,135 @@
+{
+    "templateId": "t001",
+    "templateName": "模板名",
+    "templateDesc": "模板描述",
+    "templateType": 0,
+    "templateInfoVO": "基本信息设置",
+    "templateRecordStateVO": "状态组",
+    "templateFoldId": "模板文件夾编号",
+    "createDate": "创建时间",
+    "moduleVOList": [{
+            "moduleId": "m001",
+            "moduleTitle": "7视频标题",
+            "moduleType": 7,
+            "templateId": "t001",
+            "isFold": 0,
+            "sortId": 1,
+            "moduleObject": {
+                "displayAuthState": 3,
+                "videoName": "许嵩 - 天龙八部之宿敌.mp4",
+                "videoUrl": "http://www.baidu.com"
+            }
+        },
+        {
+            "moduleId": "m002",
+            "moduleTitle": "3文件标题",
+            "moduleType": 3,
+            "templateId": "t001",
+            "isFold": 0,
+            "sortId": 2,
+            "moduleObject": {
+                "displayAuthState": 3,
+                "fileList": [{
+                    "bucketName": "image-bucket",
+                    "fileName": "test.jpg",
+                    "fileSize": "123",
+                    "fileUrl": "https://biz.cli.im/Public/images/vcardbg7.jpg",
+                    "ossKey": "/qrcode/template_info/$template_info_image.$suffix"
+                }, {
+                    "bucketName": "image-bucket",
+                    "fileName": "阿里巴巴阿里巴巴阿里巴巴阿里巴巴阿里巴巴.docx",
+                    "fileSize": "163.8KB",
+                    "fileUrl": "https://www.baidu.com",
+                    "ossKey": "/qrcode/template_info/$template_info_image.$suffix"
+                }, {
+                    "bucketName": "image-bucket",
+                    "fileName": "腾讯腾讯.png",
+                    "fileSize": "660.5KB",
+                    "fileUrl": "https://biz.cli.im/Public/images/vcardbg7.jpg",
+                    "ossKey": "/qrcode/template_info/$template_info_image.$suffix"
+                }, {
+                    "bucketName": "image-bucket",
+                    "fileName": "百度.mp3",
+                    "fileSize": "9.5MB",
+                    "fileUrl": "https://biz.cli.im/Public/images/vcardbg7.jpg",
+                    "ossKey": "/qrcode/template_info/$template_info_image.$suffix"
+                }, {
+                    "bucketName": "image-bucket",
+                    "fileName": "test.jpg",
+                    "fileSize": "123",
+                    "fileUrl": "http://qrcodeimage.youbim.cn/qrcode/template_info/$template_info_image.$suffix",
+                    "ossKey": "/qrcode/template_info/$template_info_image.$suffix"
+                }]
+            }
+        },
+        {
+            "moduleId": "m003",
+            "moduleTitle": "12网址导航",
+            "moduleType": 12,
+            "templateId": "t001",
+            "isFold": 0,
+            "sortId": 3,
+            "moduleObject": {
+                "image": { "imageName": "图片名称", "imageUrl": "https://biz.cli.im/Public/images/vcardbg7.jpg" },
+                "navigationType": 0,
+                "navigationList": [{
+                    "navigationName": "百度",
+                    "icon": "https://biz.cli.im/Public/images/vcardbg7.jpg",
+                    "actionType": 0,
+                    "linkUrl": "http://www.baidu.com",
+                    "pageNavigation": "#module-title",
+                    "templateId": "t002"
+                }, {
+                    "navigationName": "百度2",
+                    "icon": "https://biz.cli.im/Public/images/vcardbg7.jpg",
+                    "actionType": 1,
+                    "linkUrl": "http://www.baidu.com",
+                    "pageNavigation": "#module-title",
+                    "templateId": "t002"
+                }, {
+                    "navigationName": "百度3",
+                    "icon": "https://biz.cli.im/Public/images/vcardbg7.jpg",
+                    "actionType": 2,
+                    "linkUrl": "http://www.baidu.com",
+                    "pageNavigation": "#module-title",
+                    "templateId": "t002"
+                }, {
+                    "navigationName": "百度4",
+                    "icon": "https://biz.cli.im/Public/images/vcardbg7.jpg",
+                    "actionType": 0,
+                    "linkUrl": "http://www.baidu.com",
+                    "pageNavigation": "#module-title",
+                    "templateId": "t002"
+                }, {
+                    "navigationName": "百度5",
+                    "icon": "https://biz.cli.im/Public/images/vcardbg7.jpg",
+                    "actionType": 1,
+                    "linkUrl": "http://www.baidu.com",
+                    "pageNavigation": "#module-title",
+                    "templateId": "t002"
+                }, {
+                    "navigationName": "百度6",
+                    "icon": "https://biz.cli.im/Public/images/vcardbg7.jpg",
+                    "actionType": 2,
+                    "linkUrl": "http://www.baidu.com",
+                    "pageNavigation": "#module-title",
+                    "templateId": "t002"
+                }, {
+                    "navigationName": "百度7",
+                    "icon": "https://biz.cli.im/Public/images/vcardbg7.jpg",
+                    "actionType": 0,
+                    "linkUrl": "http://www.baidu.com",
+                    "pageNavigation": "#module-title",
+                    "templateId": "t002"
+                }, {
+                    "navigationName": "百度8",
+                    "icon": "https://biz.cli.im/Public/images/vcardbg7.jpg",
+                    "actionType": 1,
+                    "linkUrl": "http://www.baidu.com",
+                    "pageNavigation": "#module-title",
+                    "templateId": "t002"
+                }]
+            }
+        }
+    ]
+}

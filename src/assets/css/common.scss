@@ -1,0 +1,255 @@
+@import "mixin/fn.scss";
+html,
+body {
+    height: 100%;
+    width: 100%;
+    // font-size: 62.5%;
+    //font-family: "microsoft yahei", "HanHei SC","PingHei","PingFang SC","STHeitiSC-Light","Helvetica Neue","Helvetica","Arial",sans-serif
+}
+
+body {
+    position: relative;
+    height: 100%;
+    overflow-x: hidden;
+    // background-color: #efeff4;
+    background-color: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+ :after,
+ :before,
+input[type=search] {
+    box-sizing: border-box
+}
+
+a {
+    outline: 0;
+    text-decoration: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+img {
+    border: none;
+    max-width: 100%;
+}
+
+li {
+    list-style: none
+}
+
+.set-1px,
+.set-1px-t,
+.set-1px-b,
+.set-1px-tb,
+.set-1px-l,
+.set-1px-r,
+.button {
+    position: relative;
+}
+
+.set-1px {
+    &:before {
+        @include setLine();
+    }
+}
+
+.button {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 14px;
+    padding-right: 14px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 2.33333333;
+    border-radius: 5px;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    overflow: hidden;
+    background-color: #fff;
+    border: 1px solid #c7c7c7;
+    outline: none;
+    text-align: center;
+}
+
+.set-1px-t {
+    &:before {
+        @include setTopLine();
+    }
+}
+
+.set-1px-b {
+    &:after {
+        @include setBottomLine();
+    }
+}
+
+.set-1px-tb {
+    &:before {
+        @include setTopLine();
+    }
+    &:after {
+        @include setBottomLine();
+    }
+}
+
+.set-1px-l {
+    &:before {
+        @include setLeftLine();
+    }
+}
+
+.set-1px-r {
+    &:after {
+        @include setRightLine();
+    }
+}
+
+[v-cloak] {
+    display: none;
+}
+
+.clearfix {
+    &:before,
+    &:after {
+        display: table;
+        content: " ";
+    }
+    &:after {
+        clear: both;
+        overflow: hidden;
+    }
+}
+
+@mixin text-overflow {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.app-container {
+    height: 100%;
+    .main-init {
+        transition: 0.3s;
+        position: relative;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        &.hideLeft {
+            opacity: 0.75;
+            transform: translate3d(-100%, 0, 0);
+            transition: .3s;
+            overflow: hidden;
+        }
+        .bottom-footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            display: block;
+        }
+    }
+}
+
+.router-view {
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    /*z-index: 5;*/
+    background-color: #eee;
+    /*animation-duration: 0.3s;
+  animation-fill-mode: both;
+  backface-visibility: hidden;*/
+}
+
+.animated {
+    -webkit-animation-duration: 0.3s;
+    animation-duration: 0.3s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    /*animation: 0.25s linear;*/
+}
+
+@keyframes fadeInRight {
+    from {
+        opacity: 1;
+        -webkit-transform: translate3d(100%, 0, 0);
+        transform: translate3d(100%, 0, 0);
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+.fadeInRight {
+    -webkit-animation-name: fadeInRight;
+    animation-name: fadeInRight;
+}
+
+@keyframes fadeInLeft {
+    from {
+        opacity: 1;
+        -webkit-transform: translate3d(-100%, 0, 0);
+        transform: translate3d(-100%, 0, 0);
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+.fadeInLeft {
+    -webkit-animation-name: fadeInLeft;
+    animation-name: fadeInLeft;
+}
+
+@keyframes fadeOutLeft {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: translate3d(-100%, 0, 0);
+        transform: translate3d(-100%, 0, 0);
+    }
+}
+
+.fadeOutLeft {
+    -webkit-animation-name: fadeOutLeft;
+    animation-name: fadeOutLeft;
+}
+
+@keyframes fadeOutRight {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+        -webkit-transform: translate3d(100%, 0, 0);
+        transform: translate3d(100%, 0, 0);
+    }
+}
+
+.fadeOutRight {
+    -webkit-animation-name: fadeOutRight;
+    animation-name: fadeOutRight;
+}

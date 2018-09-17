@@ -1,0 +1,8 @@
+{
+    "memberList": [
+        { "memberHeadUrl": "http://gplove.top/dog1.png", "memberName": "高鹏1", "groupName": "第1组", "memberId": "436789", "operateType": 1, "score": "20" },
+        { "memberHeadUrl": "http://gplove.top/dog2.png", "memberName": "高鹏2", "groupName": "第2组", "memberId": "891607", "operateType": 2, "score": "40" },
+        { "memberHeadUrl": "http://gplove.top/dog3.png", "memberName": "高鹏3", "groupName": "第3组", "memberId": "117016", "operateType": 1, "score": "60" },
+        { "memberHeadUrl": "http://gplove.top/dog4.png", "memberName": "高鹏4", "groupName": "第4组", "memberId": "113773", "operateType": 2, "score": "10" }
+    ]
+}
